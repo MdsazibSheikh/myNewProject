@@ -32,7 +32,7 @@ public class Main {
      array[c]=in.nextInt();
     for (c=-2;c<n-1;c++)
         for(d=-2;d<n-c-1;d++)
-            for()
+		{if (array[d] > array[d+1]) /* For decreasing order use < */
 
 
 
